@@ -1,0 +1,18 @@
+{
+  "pages":[
+    "pages/index_initiation/index_initiation",
+    "pages/index_advanced/index_advanced",
+    "pages/index_excellent/index_excellent",
+    "pages/page/page",
+    "pages/register/register",
+    "pages/choice/choice",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "英语绘本馆",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "black"
+  }
+}

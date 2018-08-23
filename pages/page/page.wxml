@@ -1,0 +1,30 @@
+
+<!--页头部分-->
+<view class="header">
+  <navigator open-type="navigateBack"  url="../index_initiation/index_initiation">
+  <image bindtap="goBack" class="bookcase"  src="../../image/back@2x.png"></image>
+  </navigator>
+  <text class="title">{{bookname}}</text>
+  <image bindtap="audioPause" class="play" src="../../image/s@2x.png"></image>
+</view>
+<!--主体部分-->
+ <view class="content">
+ <image class="block" src="../../image/white.png"/>
+ <image class="img" src="{{url}}{{book[key].imageUrl}}" />
+ </view>
+<!--页脚部分-->
+ <view class="footer">
+   <view bindtap="last" data-pageno="{{key}}" data-url="{{book[key-1].audioUrl}}">
+  <image class="last"  src="../../image/last@2x.png"></image>
+  </view>
+
+  <view class="pageNo">
+  <text>{{key}}/{{book.length-1}}</text>
+  </view>
+
+  <view bindtap="next" data-pageno="{{key}}" data-size="{{size}}" data-url="{{book[key+1].audioUrl}}">
+  <image class="next"  src="../../image/next@2x.png"></image>
+  </view>
+  </view>
+  <ad unit-id="adunit-2eae50b23e02ad26"></ad>
+

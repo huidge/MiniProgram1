@@ -1,0 +1,98 @@
+page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width:100%;  
+  height:100%;
+  background:#fff;
+}
+.header{
+	/*background-color:red;*/
+	display: inline-flex;
+	margin-top:10rpx;
+	}
+.content{
+  display:flex;
+  justify-content:center;
+	float:center;
+	position:relative;
+  width:60%;
+  height:60%;
+}
+.footer{
+	/*background-color:green;*/
+	display: inline-flex;
+  float:center;
+	width:100%;
+  height:80px;
+	margin-bottom:30px;
+}
+.banner{
+	width:150%;
+	height:150%;
+}
+.banner-image{
+	margin-top:10px;
+}
+.banner-title{
+	margin-top:50px;
+}
+
+.bookcase{
+	position:absolute;
+	left:15rpx;
+	width:70px;
+	height:35px;
+	
+}
+.title{
+	display:inline-block;
+	font-size:15px;
+	margin-top:10px;
+	margin-left:15px;
+}
+.play{
+	position:absolute;
+	right:15rpx;
+	width:45px;
+	height:35px;
+}
+.btn{
+	width:70px;
+	height:30px;
+	margin:10px 10px;
+	border: none;
+}
+
+.img{
+	width:310px;
+	height:350px;
+	margin-top:25px;
+}
+.block{
+	position:absolute;
+	width:80px;
+	height:30px;
+	margin-left:-65px;
+	margin-top:50px;
+	color:#FFFFFF;
+}
+.last{
+	width:100px;
+	height:40px;
+	margin-left:30px;
+	margin-top:135rpx;
+}
+.next{
+	width:100px;
+	height:40px;
+	margin-right:20px;
+	margin-top:135rpx;
+}
+.pageNo{
+	font-size:20px;
+	margin:0px 40rpx;
+	margin-top:135rpx;
+}

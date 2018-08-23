@@ -1,0 +1,44 @@
+
+<view class="container" style='background:url("../../image/bg@2x.png");'>
+
+  <navigator class="skip" url="/pages/choice/choice?title=redirect" open-type="redirect">跳过</navigator>
+
+  <view  class="userinfo">
+    <image class="userinfo-avatar" src="{{avatarUrl}}" background-size="cover"></image>
+    <!--<text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    <text class="tip">请先注册</text>
+    -->
+  </view>
+<view  class="tip"><text>请先注册</text></view>
+<form bindsubmit="formSubmit">   
+<view class="table">
+<view class="section">
+  <image class="logo1" src="../../image/tel@2x.png"/>
+  <input name="tel_number" class="tel-number" type="number" placeholder="请输入手机号码" />
+</view>
+
+<view class="section">
+<image class="logo" src="../../image/blo@2x.png"/>
+  <input name="verify_code" class="verify-code" type="number" placeholder="请输入验证码" />
+  <button class="btn" disabled='{{disabled}}' data-id="2" bindtap="getVerificationCode" formType="submit">
+{{time}}
+</button>
+</view>
+
+<view class="section">
+<image class="logo" src="../../image/age@2x.png"/>
+  <picker name="age" bindchange="bindPickerChange" value="{{array[index]}}" range="{{array}}">
+    <view class="picker">{{array[index]}}</view>
+  </picker>
+</view>
+
+<view class="section">
+  <image class="logo" src="../../image/name@2x.png"/>
+  <input name="nickname" class="nickname" type="text" placeholder="宝宝昵称" />
+</view>
+
+</view>
+
+<button class="btn_register" bindtap="verify" formType="submit">注册</button>
+</form>
+</view>

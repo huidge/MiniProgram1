@@ -1,0 +1,25 @@
+
+<view class="container" style='background:url("../../image/1@2x.png");'>
+</view>
+  <view class="page">
+    
+    <block class="section section_gap" wx:for="{{book}}" wx:for-item="item">
+      <view class="section__ctn">
+        <image class="img"   mode="{{item.mode}}" src="{{url}}{{item.coverurl}}"></image>
+        <image class="border" bindtap="detail" data-id="{{book[index].bookid}}" data-name="{{book[index].bookname}}" src="../../image/book3@2x.png"></image>
+        <text class="section__title">{{book[index].readtimes}}人读过</text>
+      </view>
+    </block>
+
+</view>
+<view class="nav">
+<navigator url="/pages/index_initiation/index_initiation" open-type="navigate">
+  <image class="btn"  src="../../image/initiation@2x.png"></image>
+  </navigator>
+
+  <image class="btn"  src="../../image/advanced2@2x.png"></image>
+  
+  <navigator url="../../pages/index_excellent/index_excellent" open-type="navigate" >
+  <image class="btn"  src="../../image/excellent@2x.png"></image>
+  </navigator>
+  </view>
