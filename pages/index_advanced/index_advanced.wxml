@@ -1,8 +1,8 @@
 
-<view class="container" style='background:url("../../image/1@2x.png");'>
+<view class="container">
 </view>
   <view class="page">
-    
+    <ad unit-id="adunit-fe1ae0168b00d24f"></ad>
     <block class="section section_gap" wx:for="{{book}}" wx:for-item="item">
       <view class="section__ctn">
         <image class="img"   mode="{{item.mode}}" src="{{url}}{{item.coverurl}}"></image>

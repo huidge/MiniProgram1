@@ -5,7 +5,7 @@ App({
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
-
+/*
      var that = this  
      var user=wx.getStorageSync('user') || {};    
      var userInfo=wx.getStorageSync('userInfo') || {};   
@@ -75,8 +75,9 @@ App({
         }
       }
     })
+    */
   },
-
+/*
   getUserInfo:function(cb){  
     var that = this;  
     if(this.globalData.userInfo){  
@@ -96,10 +97,11 @@ App({
       });  
     }  
   },  
+  */
   
   globalData: {
-    userInfo: null,
-    appid:'wx1e954460873ac40d',
-    secret:'e0b926fa3206a9f364e9960b82027cf1'
+    //userInfo: null,
+    //appid:'wx1e954460873ac40d',
+    //secret:'e0b926fa3206a9f364e9960b82027cf1'
   }
 })

@@ -1,8 +1,8 @@
 
-<view class="container" style='background:url("../../image/1@2x.png");'>
+<view class="container">
 </view>
   <view class="page">
-    
+    <ad unit-id="adunit-fe1ae0168b00d24f"></ad>
     <block class="section section_gap" wx:for="{{book}}" wx:for-item="item">
       <view class="section__ctn">
         <image class="img"   mode="{{item.mode}}" src="{{url}}{{item.coverurl}}"></image>
@@ -11,7 +11,7 @@
       </view>
     </block>
 
-</view>
+  </view>
 
 <view class="nav">
   <image class="btn"  src="../../image/initiation2@2x.png"></image>
@@ -23,5 +23,16 @@
   <navigator url="../../pages/index_excellent/index_excellent" open-type="navigate" >
   <image class="btn"  src="../../image/excellent@2x.png"></image>
   </navigator>
-  </view>
+</view>
+ 
+<view class="navigator1">
+<navigator target="miniProgram" open-type="navigate" app-id="wx2768efae11c8abff" version="release" class="more">
+<image class="logo"  src="../../image/logo1.jpg"></image>
+</navigator>
+</view>
+<view class="navigator2">
+<navigator target="miniProgram" open-type="navigate" app-id="wx7e5797fabdba0397" version="release" class="more">
+<image class="logo"  src="../../image/logo2.png"></image>
+</navigator>
+</view>
 
