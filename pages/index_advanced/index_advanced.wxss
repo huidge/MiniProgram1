@@ -46,3 +46,22 @@
 	right: 130rpx;
 	margin-right:-20px;
 }
+
+.navigator_left{
+	position: fixed; 
+  top:60%;
+	left: 10rpx;
+}
+.navigator_right{
+	position: fixed; 
+  top:60%;
+	right: 10rpx;
+}
+.logo{
+	width:100rpx;
+	height:100rpx;
+	float:left;
+	margin-left:10rpx;
+  border-radius: 50%;
+  -webkit-animation: scaleDraw 5s ease-in-out infinite;
+}

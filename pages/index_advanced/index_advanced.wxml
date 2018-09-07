@@ -23,3 +23,15 @@
   <image class="btn"  src="../../image/excellent@2x.png"></image>
   </navigator>
   </view>
+
+<view class="navigator_left">
+<navigator target="miniProgram" open-type="navigate" app-id="wx8eba032edfb43510" version="release" class="more">
+<image class="logo"  src="../../image/subway.png"></image>
+</navigator>
+</view>
+
+<view class="navigator_right">
+<navigator target="miniProgram" open-type="navigate" app-id="wx3adc470a3de61b9f" version="release" class="more">
+<image class="logo"  src="../../image/robot.jpg"></image>
+</navigator>
+</view>

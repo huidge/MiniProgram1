@@ -25,14 +25,15 @@
   </navigator>
 </view>
  
-<view class="navigator1">
-<navigator target="miniProgram" open-type="navigate" app-id="wx2768efae11c8abff" version="release" class="more">
-<image class="logo"  src="../../image/logo1.jpg"></image>
+<view class="navigator_left">
+<navigator target="miniProgram" open-type="navigate" app-id="wx7e5797fabdba0397" version="release" class="more">
+<image class="logo"  src="../../image/mengbao.png"></image>
 </navigator>
 </view>
-<view class="navigator2">
-<navigator target="miniProgram" open-type="navigate" app-id="wx7e5797fabdba0397" version="release" class="more">
-<image class="logo"  src="../../image/logo2.png"></image>
+
+<view class="navigator_right">
+<navigator target="miniProgram" open-type="navigate" app-id="wx2768efae11c8abff" version="release" class="more">
+<image class="logo"  src="../../image/chengyu.jpg"></image>
 </navigator>
 </view>
 

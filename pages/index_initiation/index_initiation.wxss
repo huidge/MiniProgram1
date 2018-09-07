@@ -46,12 +46,14 @@
 	right: 130rpx;
 	margin-right:-20px;
 }
-.navigator1{
+
+
+.navigator_left{
 	position: fixed; 
   top:60%;
 	left: 10rpx;
 }
-.navigator2{
+.navigator_right{
 	position: fixed; 
   top:60%;
 	right: 10rpx;
@@ -62,4 +64,5 @@
 	float:left;
 	margin-left:10rpx;
   border-radius: 50%;
+  -webkit-animation: scaleDraw 5s ease-in-out infinite;
 }

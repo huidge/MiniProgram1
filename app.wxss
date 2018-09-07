@@ -13,3 +13,20 @@ page{
   height:100%;
   background:#FACC2E;
 }
+ @keyframes scaleDraw {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+            0%{
+                transform: scale(0.8);  /*开始为原始大小*/
+            }
+            25%{
+                transform: scale(1.1); /*放大1.1倍*/
+            }
+            50%{
+                transform: scale(0.8);
+            }
+            75%{
+                transform: scale(1.1);
+            }
+            100%{
+                transform: scale(0.8);
+            }
+        }
